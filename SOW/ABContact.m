@@ -4,6 +4,8 @@
  BSD License, Use at your own risk
  */
 
+// another line
+
 #import "ABContact.h"
 #import "ABContactsHelper.h"
 #import "ABStandin.h"
