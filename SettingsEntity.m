@@ -6,6 +6,7 @@
 //
 // just making change for git.
 // another line temp
+// adding another line here 
 
 #import "SettingsEntity.h"
 
