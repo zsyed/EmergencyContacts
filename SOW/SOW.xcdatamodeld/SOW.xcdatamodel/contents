@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MessageEntity" representedClassName="MessageEntity" syncable="YES">
+        <attribute name="fromName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageSubject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sentDateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sentMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toEmailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toTextNumbers" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeMessage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SettingsEntity" representedClassName="SettingsEntity" syncable="YES">
+        <attribute name="enteredDateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fromName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageBody" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageSubject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sentToName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toEmailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toTextNumbers" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MessageEntity" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="SettingsEntity" positionX="160" positionY="192" width="128" height="165"/>
+    </elements>
+</model>
